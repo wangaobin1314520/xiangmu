@@ -14,4 +14,4 @@ var data = Mock.mock({
 
 Mock.mock("/api/list",data.list)
 
-export default {data};
+module.exports = data
