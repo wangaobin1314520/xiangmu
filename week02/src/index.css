@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  user-select: none;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App .main {
+  flex: 1;
+  overflow: scroll;
+}
+
+.App .foot {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.toptab {
+  margin: 5px 0px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.toptab span {
+  display: inline-block;
+  width: 80px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.toptab .color {
+  background: #0ff;
+}
+
+.tab1Son {
+  margin-top: 15px;
+  display: flex;
+}
+
+.tab1Son .left {
+  flex: 2;
+}
+
+.tab1Son .right {
+  flex: 3;
+}
+
+.tab1Son .right b {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  background: #0f0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.active {
+  color: #f90;
+}
+
+.totalPrice {
+  width: 80px;
+  height: 45px;
+  background: #09f;
+  color: #fff;
+  position: fixed;
+  line-height: 45px;
+  text-align: center;
+  right: 5px;
+  bottom: 60px;
+}
