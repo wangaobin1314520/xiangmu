@@ -9,6 +9,7 @@
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
 // import axios from "../axios/index.js"
+// const axios = require("../axios/index.js")
 const axios = require("axios")
 
 export default {
