@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  user-select: none;
+}
+
+.right{
+  float: right;
+  color: #00f;
+}
+
+.rightcont{
+  float: right;
+}
+
+b{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  background: #0f0;
+  b:nth-child(2){
+    background: #0ff;
+  }
+}
+
+
+
+p{
+  margin-top: 15px;
+}
