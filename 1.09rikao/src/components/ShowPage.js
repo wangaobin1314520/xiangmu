@@ -11,9 +11,14 @@ class ShowPage extends Component {
                     listData.map(item=>{
                         if(item.type === tabIndex){
                             return (
-                                <div className="showson" key={item.id}>
-                                    {item.title}
-                                </div>
+                                item.children.map((val,index)=>{
+                                    return (
+                                        <div className="showson" key={index}>
+                                            {item.type}
+                                            {val.title}
+                                        </div>
+                                    )
+                                })
                             )
                         }else{
                             return null

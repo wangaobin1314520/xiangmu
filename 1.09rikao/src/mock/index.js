@@ -5,11 +5,13 @@ const types = [0,1,2,3,4,5]
 Mock.mock("/api/left",types)
 
 var data = Mock.mock({
-    "list|30":[
+    "list|36":[
         {
             "id|+1":0,
             "type|+1":types,
-            "title":"@ctitle(6)",
+            "children|2":[{
+                "title":"@ctitle(6)",
+            }]
         }
     ]
 })
