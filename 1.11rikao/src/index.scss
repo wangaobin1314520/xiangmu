@@ -1,27 +1,26 @@
-* {
+*{
   margin: 0;
   padding: 0;
   list-style: none;
   user-select: none;
 }
 
-.content {
+.content{
   width: 100vw;
   height: 100vh;
   display: flex;
+  .leftBox{
+    flex: 1;
+    // background: #0f0;
+  }
+  .rightBox{
+    flex: 9;
+    background: #0ff;
+    overflow: hidden;
+  }
 }
 
-.content .leftBox {
-  flex: 1;
-}
-
-.content .rightBox {
-  flex: 9;
-  background: #0ff;
-  overflow: hidden;
-}
-
-.tabBox {
+.tabBox{
   width: 50px;
   height: 50px;
   line-height: 50px;
